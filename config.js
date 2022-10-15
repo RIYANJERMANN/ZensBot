@@ -16,17 +16,17 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['62895604670507']
-global.ownernomer = "62895604670507"
-global.premium = ['62895604670507','6281328144300']
-global.packname = 'Zenss'
+global.owner = ['6282124572932']
+global.ownernomer = "6282124572932"
+global.premium = ['6282124572932','6287786201972']
+global.packname = 'zizi'
 global.author = 'Cuyy'
 global.sessionName = 'zenss'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 global.mess = {
-    success: 'Done',
-    admin: 'Fitur Khusus Admin Group!',
+    success: 'sukses kak👍',
+    admin: 'perintah ini khusus admin grub😁!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     premime: 'Fitur Khusus Premium Kalo Mau Daftar Ketik Sewa',
     owner: 'Fitur Khusus Owner Bot',
