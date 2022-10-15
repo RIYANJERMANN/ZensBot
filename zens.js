@@ -601,7 +601,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/0b31865ef182a7681f9c3.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n chat nomor berikut : wa.me/62895604670507\n\n_Terima kasih_` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/Scan-qris-10-15' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_SEWA BOT CUMAN 200P/\n\n*donasi juga bisa Transfer via*\n- *Gopay Dana Ovo link aja*\n chat nomor berikut : wa.me/6282124572932\n\n_Terima kasih_` }, { quoted: m })
             }
             break 
             case 'chat': {
@@ -2877,7 +2877,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 rules = `┌──⭓ *Rules BOT*
 │
 │ *No Spam & Telp❗*
-│
+│ *sewa bot cuman 200p ketik #owner*
 └───────𖦹Ꜥꜥ`
 let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '👑Sewa' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, rules, nyoutube, m, {quoted: fkontak})
@@ -2898,7 +2898,7 @@ let kominfo = `628119224545@s.whatsapp.net`
 let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*Bot by Zens cuy* 
+            let jawab = `*Bot by zizi cuy* 
 -Creator :  @${ownernya.split('@')[0]}\n-Lu : @${me.split('@')[0]}\n-Powered  : @${ini_mark.split('@')[0]}\n- :  @${qontak.split('@')[0]}\n- :  @${dana.split('@')[0]}\n- :  @${shopeeotp.split('@')[0]}\n- :  @${shopee.split('@')[0]}\n- :  @${tokopedia.split('@')[0]}\n- :  @${smartfrend.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${facebook.split('@')[0]}\n- :  @${pasarpolis.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${kominfo.split('@')[0]}\n- :  @${alfamart.split('@')[0]}`
             let ments = [ownernya, me, ini_mark, qontak, dana, shopeeotp, shopee, tokopedia, smartfrend, getcontact, facebook, pasarpolis, kominfo, alfamart]
             let buttons = [
